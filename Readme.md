@@ -90,8 +90,10 @@ uk:                      1
 co.uk:                   1  
 google.co.uk:            1  
 ```
-⚡ __Bonus__
+⚡ __Nota__
 
-El objeto no necesariamente tiene que estar ordenado, pero se considera un bonus si se ordena
-de mayor a menor como esta en el ejemplo.
+No es necesario que el objeto este ordenado de mayor a menor. Lo que si es necesario que el objeto contenga los datos correctos
+de cada dominio y subdominio con su correspondiente valor, como se detalla en el resultado esperado.
+
+
 
