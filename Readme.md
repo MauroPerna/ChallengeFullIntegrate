@@ -1,4 +1,4 @@
-***Challenge técnico FULL INTEGRATE 2022***
+# Challenge técnico FULL INTEGRATE 2022
 
 🚀¡Bienvenidos al challenge técnico de FULL INTEGRATE! 
 
@@ -28,19 +28,20 @@ Estas a cargo de un programa de fidelizacion de tu empresa. Los anuncios son vis
 paginas alrededor de internet. Tienes informacion en formato CSV, que cuenta cuantas veces los usuarios han hecho click en distintas urls donde esta publicitado el anuncio. Cada linea
 consiste en un nombre de dominio(URL) y la cantidad de veces que distintos usuarios hicieron click
 en el anuncio. Cada linea contiene un contador(entero) y el nombre de dominio(URL).
-
-clicks = [ "900,google.com",
-     "60,mail.yahoo.com",
-     "10,mobile.sports.yahoo.com",
-     "40,sports.yahoo.com",
-     "300,yahoo.com",
-     "10,stackoverflow.com",
-     "20,overflow.com",
-     "5,com.com",
-     "2,en.wikipedia.org",
-     "1,m.wikipedia.org",
-     "1,mobile.sports",
-     "1,google.co.uk"]
+```bash
+clicks = [ "900,google.com",  
+     "60,mail.yahoo.com",  
+     "10,mobile.sports.yahoo.com",  
+     "40,sports.yahoo.com",  
+     "300,yahoo.com",  
+     "10,stackoverflow.com",  
+     "20,overflow.com",  
+     "5,com.com",  
+     "2,en.wikipedia.org",  
+     "1,m.wikipedia.org",  
+     "1,mobile.sports",  
+     "1,google.co.uk"]  
+```
 
 Como puedes ver tienes un arreglo "clicks", donde cada elemento es un string que contiene
 el contador una coma y el dominio. Como puedes observar en el primer elemento se indica que en el dominio google.com se hizo click en el anuncio 900 veces. 
@@ -63,32 +64,33 @@ repetido en todos los elementos contabiliza un total de 1345 veces.
 Se puede devolver una estructura de datos de tipo obj {clave: valor} donde la clave es el dominio u
 subdominio y el valor es el total de clicks.
 
-ej: objClicks={com:1345,
-              google.com: 900, 
-              yahoo.com: 410,
-              ....etc}
+ej: objClicks={com:1345,  
+              google.com: 900,   
+              yahoo.com: 410,  
+              ....etc}  
 
-⚡Resultado esperado =>
-com:                     1345
-google.com:              900
-yahoo.com:               410
-mail.yahoo.com:          60
-sports.yahoo.com:        50
-overflow.com:            20
-mobile.sports.yahoo.com: 10
-stackoverflow.com:       10
-com.com:                 5
-org:                     3
-wikipedia.org:           3
-en.wikipedia.org:        2
-m.wikipedia.org:         1
-mobile.sports:           1
-sports:                  1
-uk:                      1
-co.uk:                   1
-google.co.uk:            1
-
-***Bonus***
+🔭Resultado esperado =>
+```bash
+com:                     1345    
+google.com:              900   
+yahoo.com:               410  
+mail.yahoo.com:          60  
+sports.yahoo.com:        50  
+overflow.com:            20  
+mobile.sports.yahoo.com: 10  
+stackoverflow.com:       10  
+com.com:                 5  
+org:                     3  
+wikipedia.org:           3  
+en.wikipedia.org:        2  
+m.wikipedia.org:         1  
+mobile.sports:           1  
+sports:                  1  
+uk:                      1  
+co.uk:                   1  
+google.co.uk:            1  
+```
+⚡ __Bonus__
 
 El objeto no necesariamente tiene que estar ordenado, pero se considera un bonus si se ordena
 de mayor a menor como esta en el ejemplo.
